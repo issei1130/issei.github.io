@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+}
+/* ヘッダー部------------------------ */
+.head_content{
+    height: 64px;
+    background-color: #2B383FCC;
+    color: white;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 102px;
+}
+
+.page_title{
+    font-size: 32px;
+    width: 185px;
+    height: 45px;
+    margin: 0;
+    padding-top: 9px;
+}
+
+.head_menu{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-top: 22px;
+    margin: 0;
+}
+
+/* ヘッダー部ここまで---------------- */
+
+/* メイン部------------------------- */
+.main_visual{
+    width: 100%;
+    max-width: 100%;
+    background-image: url(./img/Untitled.png);
+    background-size: cover;
+    height: 567px;
+}
+
+.main_wrapper{
+    position: absolute;
+    top: 271px;
+    left: 517px;
+    width: 406px;
+    height: 153px;
+    text-align: center;
+}
+
+.main_title{
+    color: white;
+    font-weight:700;
+    width: 406px;
+    height: 58px;
+    font-size: 40px;
+    line-height: 100%;
+}
+
+.main button{
+    color: white;
+    background-color: #47AEA1;
+    border: 1px solid #47AEA1;
+    height: 55px;
+    border-radius: 10px;
+    padding: 10px 32px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+}
+/* メイン部ここまで------------------ */
+
+/* コンテンツ部------------------------- */
+.contents{
+    margin: 80px 160px 0;
+}
+
+.contents_title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    margin-bottom: 69px;
+    margin-top: 0;
+}
+
+.contents_item_zone{
+    display: flex;
+    gap: 34px;
+}
+
+.contents_item{
+    width: 256px;
+    height: 328px;
+}
+
+.contents_item img{
+    width: 100%;
+}
+
+.img_title{
+    width: 100%;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.contents_item_text{
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contents_button{
+    text-align: center;
+    margin: 80px 0;
+}
+/* コンテンツ部ここまで------------------ */
+
+/* フッター部------------------------- */
+.footer_wrapper{
+    background-color: #2B383FCC;
+    color: white;
+    height: 64px;
+}
+
+.footer_wrapper p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;text-align: center;
+    padding: 26px 0;
+}
+/* フッター部ここまで------------------ */
